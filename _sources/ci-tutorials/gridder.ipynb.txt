@@ -3,13 +3,13 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "557f1b6f",
+   "id": "a94c38e0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:34.826399Z",
-     "iopub.status.busy": "2021-06-28T21:34:34.825708Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.107047Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.106474Z"
+     "iopub.execute_input": "2021-06-28T21:35:21.793771Z",
+     "iopub.status.busy": "2021-06-28T21:35:21.792813Z",
+     "iopub.status.idle": "2021-06-28T21:35:22.081892Z",
+     "shell.execute_reply": "2021-06-28T21:35:22.080843Z"
     },
     "nbsphinx": "hidden"
    },
@@ -21,13 +21,13 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "b70d69a7",
+   "id": "9ef1061b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.110852Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.109078Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.122865Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.123363Z"
+     "iopub.execute_input": "2021-06-28T21:35:22.092081Z",
+     "iopub.status.busy": "2021-06-28T21:35:22.085479Z",
+     "iopub.status.idle": "2021-06-28T21:35:22.099202Z",
+     "shell.execute_reply": "2021-06-28T21:35:22.098682Z"
     },
     "nbsphinx": "hidden"
    },
@@ -38,7 +38,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0691630a",
+   "id": "447c1ed8",
    "metadata": {
     "lines_to_next_cell": 2
    },
@@ -59,13 +59,13 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "9e8c3bb5",
+   "id": "4b083c0f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.128290Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.127477Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.253830Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.253302Z"
+     "iopub.execute_input": "2021-06-28T21:35:22.103560Z",
+     "iopub.status.busy": "2021-06-28T21:35:22.102700Z",
+     "iopub.status.idle": "2021-06-28T21:35:22.248129Z",
+     "shell.execute_reply": "2021-06-28T21:35:22.247054Z"
     }
    },
    "outputs": [],
@@ -78,13 +78,13 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "83dcfab3",
+   "id": "fc42b277",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.259240Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.257792Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.260021Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.260590Z"
+     "iopub.execute_input": "2021-06-28T21:35:22.252791Z",
+     "iopub.status.busy": "2021-06-28T21:35:22.252238Z",
+     "iopub.status.idle": "2021-06-28T21:35:22.255724Z",
+     "shell.execute_reply": "2021-06-28T21:35:22.255238Z"
     }
    },
    "outputs": [],
@@ -101,13 +101,13 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "a55979e7",
+   "id": "6bf3d87e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.265252Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.264683Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.451125Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.450657Z"
+     "iopub.execute_input": "2021-06-28T21:35:22.260843Z",
+     "iopub.status.busy": "2021-06-28T21:35:22.259806Z",
+     "iopub.status.idle": "2021-06-28T21:35:22.470910Z",
+     "shell.execute_reply": "2021-06-28T21:35:22.469964Z"
     }
    },
    "outputs": [],
@@ -123,7 +123,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c8f72afd",
+   "id": "8bfbe2bb",
    "metadata": {},
    "source": [
     "## The GridCoords object"
@@ -132,13 +132,13 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "cf90a359",
+   "id": "965e9258",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.455620Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.455060Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.827459Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.826973Z"
+     "iopub.execute_input": "2021-06-28T21:35:22.475513Z",
+     "iopub.status.busy": "2021-06-28T21:35:22.474618Z",
+     "iopub.status.idle": "2021-06-28T21:35:22.919319Z",
+     "shell.execute_reply": "2021-06-28T21:35:22.917488Z"
     }
    },
    "outputs": [],
@@ -148,7 +148,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c54f68bf",
+   "id": "8e93eb9d",
    "metadata": {},
    "source": [
     " The first MPoL object we'll familiarize ourselves with is GridCoords. Two numbers, `cell_size` and `npix`, uniquely define a grid in image space and Fourier space."
@@ -157,13 +157,13 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "fa6f6f2c",
+   "id": "d892c18d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.831351Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.830771Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.896769Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.896195Z"
+     "iopub.execute_input": "2021-06-28T21:35:22.924052Z",
+     "iopub.status.busy": "2021-06-28T21:35:22.923008Z",
+     "iopub.status.idle": "2021-06-28T21:35:22.990786Z",
+     "shell.execute_reply": "2021-06-28T21:35:22.990136Z"
     }
    },
    "outputs": [],
@@ -173,7 +173,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "502adbf0",
+   "id": "1cd18a61",
    "metadata": {},
    "source": [
     "The GridCoords object is mainly a container for all of the information about this grid. You can see all of the properties accessible in the [GridCoords](../api.rst#mpol.coordinates.GridCoords) API documentation. The information you'll most likely want to access are the image dimensions"
@@ -182,13 +182,13 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "7adc5c3c",
+   "id": "db4579d7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.903182Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.902721Z",
-     "iopub.status.idle": "2021-06-28T21:34:35.905931Z",
-     "shell.execute_reply": "2021-06-28T21:34:35.906353Z"
+     "iopub.execute_input": "2021-06-28T21:35:22.997732Z",
+     "iopub.status.busy": "2021-06-28T21:35:22.997179Z",
+     "iopub.status.idle": "2021-06-28T21:35:23.008279Z",
+     "shell.execute_reply": "2021-06-28T21:35:23.007864Z"
     }
    },
    "outputs": [
@@ -209,7 +209,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a975d478",
+   "id": "35ef8651",
    "metadata": {},
    "source": [
     "which are meant to feed into the `extent` parameter of `matplotlib.pyplot.imshow`."
@@ -217,7 +217,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3fff7d52",
+   "id": "c315de1e",
    "metadata": {},
    "source": [
     "## The Gridder object\n",
@@ -228,13 +228,13 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "951e3637",
+   "id": "77071ec0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:35.909854Z",
-     "iopub.status.busy": "2021-06-28T21:34:35.909372Z",
-     "iopub.status.idle": "2021-06-28T21:34:36.559035Z",
-     "shell.execute_reply": "2021-06-28T21:34:36.558566Z"
+     "iopub.execute_input": "2021-06-28T21:35:23.012867Z",
+     "iopub.status.busy": "2021-06-28T21:35:23.012341Z",
+     "iopub.status.idle": "2021-06-28T21:35:23.715689Z",
+     "shell.execute_reply": "2021-06-28T21:35:23.715206Z"
     }
    },
    "outputs": [],
@@ -251,7 +251,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3e295d0e",
+   "id": "f83764ef",
    "metadata": {},
    "source": [
     "Note that the `uu`, `vv`, `weight`, `data_re`, and `data_im` arrays are all two-dimensional numpy arrays of shape `(nchan, nvis)`. This is because MPoL has the capacity to image spectral line observations. MPoL will absolutely still work with single-channel continuum data, you will just need to work with 2D arrays of shape `(1, nvis)`.\n",
@@ -261,13 +261,13 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "a30fa0b9",
+   "id": "4506ea88",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:36.562985Z",
-     "iopub.status.busy": "2021-06-28T21:34:36.562195Z",
-     "iopub.status.idle": "2021-06-28T21:34:37.240922Z",
-     "shell.execute_reply": "2021-06-28T21:34:37.240443Z"
+     "iopub.execute_input": "2021-06-28T21:35:23.720625Z",
+     "iopub.status.busy": "2021-06-28T21:35:23.720103Z",
+     "iopub.status.idle": "2021-06-28T21:35:24.451632Z",
+     "shell.execute_reply": "2021-06-28T21:35:24.451063Z"
     }
    },
    "outputs": [],
@@ -285,7 +285,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0f2efb2d",
+   "id": "a617afaa",
    "metadata": {},
    "source": [
     "if you don't want to specify your GridCoords object separately."
@@ -293,7 +293,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "81ed9d91",
+   "id": "ba86c5f2",
    "metadata": {},
    "source": [
     "## Visualizing the images\n",
@@ -305,13 +305,13 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "69a93793",
+   "id": "5daf2159",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:37.244706Z",
-     "iopub.status.busy": "2021-06-28T21:34:37.244238Z",
-     "iopub.status.idle": "2021-06-28T21:34:45.503678Z",
-     "shell.execute_reply": "2021-06-28T21:34:45.502769Z"
+     "iopub.execute_input": "2021-06-28T21:35:24.455962Z",
+     "iopub.status.busy": "2021-06-28T21:35:24.455477Z",
+     "iopub.status.idle": "2021-06-28T21:35:33.158736Z",
+     "shell.execute_reply": "2021-06-28T21:35:33.159236Z"
     }
    },
    "outputs": [],
@@ -321,7 +321,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d7d62afd",
+   "id": "56116bc6",
    "metadata": {},
    "source": [
     "Note that these are three dimensional image cubes with the same `nchan` as the input visibility data."
@@ -330,13 +330,13 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "2c2184ec",
+   "id": "49f4ad83",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:45.508590Z",
-     "iopub.status.busy": "2021-06-28T21:34:45.508020Z",
-     "iopub.status.idle": "2021-06-28T21:34:45.512123Z",
-     "shell.execute_reply": "2021-06-28T21:34:45.512554Z"
+     "iopub.execute_input": "2021-06-28T21:35:33.163434Z",
+     "iopub.status.busy": "2021-06-28T21:35:33.162921Z",
+     "iopub.status.idle": "2021-06-28T21:35:33.167092Z",
+     "shell.execute_reply": "2021-06-28T21:35:33.166631Z"
     }
    },
    "outputs": [
@@ -356,7 +356,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9464bfc4",
+   "id": "4923a88e",
    "metadata": {},
    "source": [
     "And the image has units of \"Jy/beam\"."
@@ -365,13 +365,13 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "859030af",
+   "id": "57b9bf56",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T21:34:45.562825Z",
-     "iopub.status.busy": "2021-06-28T21:34:45.562041Z",
-     "iopub.status.idle": "2021-06-28T21:34:46.241524Z",
-     "shell.execute_reply": "2021-06-28T21:34:46.241990Z"
+     "iopub.execute_input": "2021-06-28T21:35:33.186184Z",
+     "iopub.status.busy": "2021-06-28T21:35:33.185643Z",
+     "iopub.status.idle": "2021-06-28T21:35:33.925629Z",
+     "shell.execute_reply": "2021-06-28T21:35:33.926039Z"
     },
     "lines_to_next_cell": 2
    },
@@ -408,7 +408,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "389996cd",
+   "id": "22ff30d7",
    "metadata": {},
    "source": [
     "If you were working with this measurement set in CASA, it's a good idea to compare the dirty image produced here to the dirty image from CASA (i.e., produced by `tclean` with zero CLEAN iterations). You should confirm that these two dirty images look very similar (i.e., nearly but most likely not quite to numerical precision) before moving on to regularized maximum imaging. If your image appears upside down or mirrored, check whether you converted your visibility data from the CASA baseline convention to the regular TMS baseline convention by conjugating your visibilities."
@@ -416,7 +416,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "021df8db",
+   "id": "5ccd6abc",
    "metadata": {},
    "source": [
     "## Checking data weights\n",
