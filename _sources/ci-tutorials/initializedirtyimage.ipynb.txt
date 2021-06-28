@@ -3,13 +3,13 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "165c2cec",
+   "id": "4d8f39b8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:27.000301Z",
-     "iopub.status.busy": "2021-06-28T15:19:26.999686Z",
-     "iopub.status.idle": "2021-06-28T15:19:27.308123Z",
-     "shell.execute_reply": "2021-06-28T15:19:27.307019Z"
+     "iopub.execute_input": "2021-06-28T21:36:42.660332Z",
+     "iopub.status.busy": "2021-06-28T21:36:42.659795Z",
+     "iopub.status.idle": "2021-06-28T21:36:42.943565Z",
+     "shell.execute_reply": "2021-06-28T21:36:42.942736Z"
     },
     "nbsphinx": "hidden"
    },
@@ -21,13 +21,13 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "8cff45b6",
+   "id": "3d11ff36",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:27.318539Z",
-     "iopub.status.busy": "2021-06-28T15:19:27.311860Z",
-     "iopub.status.idle": "2021-06-28T15:19:27.326052Z",
-     "shell.execute_reply": "2021-06-28T15:19:27.325560Z"
+     "iopub.execute_input": "2021-06-28T21:36:42.951856Z",
+     "iopub.status.busy": "2021-06-28T21:36:42.951402Z",
+     "iopub.status.idle": "2021-06-28T21:36:42.959299Z",
+     "shell.execute_reply": "2021-06-28T21:36:42.958873Z"
     },
     "nbsphinx": "hidden"
    },
@@ -38,7 +38,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f6c190f3",
+   "id": "8f5b87d4",
    "metadata": {},
    "source": [
     "## Initializing with the Dirty Image\n",
@@ -55,7 +55,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "af384a77",
+   "id": "9d5b674c",
    "metadata": {},
    "source": [
     "### Image Setup\n",
@@ -66,13 +66,13 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "3916b548",
+   "id": "b2aa1b57",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:27.330373Z",
-     "iopub.status.busy": "2021-06-28T15:19:27.329849Z",
-     "iopub.status.idle": "2021-06-28T15:19:27.888482Z",
-     "shell.execute_reply": "2021-06-28T15:19:27.887416Z"
+     "iopub.execute_input": "2021-06-28T21:36:42.963529Z",
+     "iopub.status.busy": "2021-06-28T21:36:42.962383Z",
+     "iopub.status.idle": "2021-06-28T21:36:43.456919Z",
+     "shell.execute_reply": "2021-06-28T21:36:43.455945Z"
     }
    },
    "outputs": [],
@@ -86,13 +86,13 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "593bfdde",
+   "id": "ad4edbe4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:27.892893Z",
-     "iopub.status.busy": "2021-06-28T15:19:27.892043Z",
-     "iopub.status.idle": "2021-06-28T15:19:27.919686Z",
-     "shell.execute_reply": "2021-06-28T15:19:27.919176Z"
+     "iopub.execute_input": "2021-06-28T21:36:43.461937Z",
+     "iopub.status.busy": "2021-06-28T21:36:43.460715Z",
+     "iopub.status.idle": "2021-06-28T21:36:43.490780Z",
+     "shell.execute_reply": "2021-06-28T21:36:43.490310Z"
     }
    },
    "outputs": [],
@@ -102,7 +102,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3db1961a",
+   "id": "382889cf",
    "metadata": {},
    "source": [
     "When saving and loading a model, it is important to make sure that ``cell_size``, ``nchan``, and ``npix`` remain the same. More info on coordinates can be found [here](../api.rst#mpol.coordinates.GridCoords)."
@@ -111,13 +111,13 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "b0f1395e",
+   "id": "18b2096b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:27.927707Z",
-     "iopub.status.busy": "2021-06-28T15:19:27.925621Z",
-     "iopub.status.idle": "2021-06-28T15:19:29.040536Z",
-     "shell.execute_reply": "2021-06-28T15:19:29.041157Z"
+     "iopub.execute_input": "2021-06-28T21:36:43.498980Z",
+     "iopub.status.busy": "2021-06-28T21:36:43.496710Z",
+     "iopub.status.idle": "2021-06-28T21:36:44.503204Z",
+     "shell.execute_reply": "2021-06-28T21:36:44.502736Z"
     }
    },
    "outputs": [],
@@ -156,7 +156,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "dadf3c8a",
+   "id": "79f7dbb4",
    "metadata": {},
    "source": [
     "Now let's calculate the dirty image. Here we're using Briggs weighting with a robust value of 1.0, but you can use whichever weighting scheme you think looks best for your dataset."
@@ -165,13 +165,13 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "fa9908f9",
+   "id": "94a54eaf",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:29.045133Z",
-     "iopub.status.busy": "2021-06-28T15:19:29.044600Z",
-     "iopub.status.idle": "2021-06-28T15:19:29.779465Z",
-     "shell.execute_reply": "2021-06-28T15:19:29.778418Z"
+     "iopub.execute_input": "2021-06-28T21:36:44.507845Z",
+     "iopub.status.busy": "2021-06-28T21:36:44.507301Z",
+     "iopub.status.idle": "2021-06-28T21:36:45.125597Z",
+     "shell.execute_reply": "2021-06-28T21:36:45.124617Z"
     }
    },
    "outputs": [],
@@ -182,7 +182,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e9374d98",
+   "id": "7f45cf07",
    "metadata": {},
    "source": [
     "Let's visualize this dirty image. Here we're using an aggressive colormap to highlight the many negative flux pixels contained in this image."
@@ -191,20 +191,20 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "c91f4a99",
+   "id": "1e701f63",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:29.798644Z",
-     "iopub.status.busy": "2021-06-28T15:19:29.798078Z",
-     "iopub.status.idle": "2021-06-28T15:19:30.362672Z",
-     "shell.execute_reply": "2021-06-28T15:19:30.362188Z"
+     "iopub.execute_input": "2021-06-28T21:36:45.160138Z",
+     "iopub.status.busy": "2021-06-28T21:36:45.150236Z",
+     "iopub.status.idle": "2021-06-28T21:36:45.764037Z",
+     "shell.execute_reply": "2021-06-28T21:36:45.764570Z"
     }
    },
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "<matplotlib.colorbar.Colorbar at 0x7fdeff423670>"
+       "<matplotlib.colorbar.Colorbar at 0x7f79af0d1be0>"
       ]
      },
      "execution_count": 7,
@@ -251,7 +251,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "bd830edf",
+   "id": "ddc47578",
    "metadata": {},
    "source": [
     "We can see that there are a number of pixels with negative flux values"
@@ -260,13 +260,13 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "00dd7a8f",
+   "id": "5b4132a6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:30.367364Z",
-     "iopub.status.busy": "2021-06-28T15:19:30.366004Z",
-     "iopub.status.idle": "2021-06-28T15:19:30.370044Z",
-     "shell.execute_reply": "2021-06-28T15:19:30.369611Z"
+     "iopub.execute_input": "2021-06-28T21:36:45.769795Z",
+     "iopub.status.busy": "2021-06-28T21:36:45.767990Z",
+     "iopub.status.idle": "2021-06-28T21:36:45.772289Z",
+     "shell.execute_reply": "2021-06-28T21:36:45.771532Z"
     }
    },
    "outputs": [
@@ -287,7 +287,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9e0a47dd",
+   "id": "b7012b60",
    "metadata": {},
    "source": [
     "### Model and Optimization Setup\n",
@@ -298,13 +298,13 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "735d7ff1",
+   "id": "de194549",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:30.374412Z",
-     "iopub.status.busy": "2021-06-28T15:19:30.373883Z",
-     "iopub.status.idle": "2021-06-28T15:19:30.377984Z",
-     "shell.execute_reply": "2021-06-28T15:19:30.377550Z"
+     "iopub.execute_input": "2021-06-28T21:36:45.776600Z",
+     "iopub.status.busy": "2021-06-28T21:36:45.776037Z",
+     "iopub.status.idle": "2021-06-28T21:36:45.779668Z",
+     "shell.execute_reply": "2021-06-28T21:36:45.780119Z"
     },
     "lines_to_next_cell": 2
    },
@@ -319,7 +319,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f0a51489",
+   "id": "6712b9fc",
    "metadata": {},
    "source": [
     "### Loss Function"
@@ -327,7 +327,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b0cd7789",
+   "id": "91f6222e",
    "metadata": {
     "lines_to_next_cell": 2
    },
@@ -337,7 +337,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b11389d1",
+   "id": "e5ed7ef2",
    "metadata": {},
    "source": [
     "### Training Loop\n",
@@ -348,13 +348,13 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "32e05c79",
+   "id": "ced210cb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:30.387306Z",
-     "iopub.status.busy": "2021-06-28T15:19:30.382701Z",
-     "iopub.status.idle": "2021-06-28T15:19:30.548402Z",
-     "shell.execute_reply": "2021-06-28T15:19:30.548965Z"
+     "iopub.execute_input": "2021-06-28T21:36:45.788855Z",
+     "iopub.status.busy": "2021-06-28T21:36:45.784614Z",
+     "iopub.status.idle": "2021-06-28T21:36:45.978623Z",
+     "shell.execute_reply": "2021-06-28T21:36:45.978175Z"
     }
    },
    "outputs": [],
@@ -383,13 +383,13 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "1db439fc",
+   "id": "e73843e0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:30.575147Z",
-     "iopub.status.busy": "2021-06-28T15:19:30.570899Z",
-     "iopub.status.idle": "2021-06-28T15:19:30.761849Z",
-     "shell.execute_reply": "2021-06-28T15:19:30.762304Z"
+     "iopub.execute_input": "2021-06-28T21:36:46.005013Z",
+     "iopub.status.busy": "2021-06-28T21:36:45.995375Z",
+     "iopub.status.idle": "2021-06-28T21:36:46.189860Z",
+     "shell.execute_reply": "2021-06-28T21:36:46.189287Z"
     }
    },
    "outputs": [
@@ -428,7 +428,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1299d3b0",
+   "id": "c8e181e0",
    "metadata": {},
    "source": [
     "Let's visualize the resulting image cube representation."
@@ -437,20 +437,20 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "3136a29e",
+   "id": "188ec0b2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:30.769821Z",
-     "iopub.status.busy": "2021-06-28T15:19:30.769285Z",
-     "iopub.status.idle": "2021-06-28T15:19:31.070600Z",
-     "shell.execute_reply": "2021-06-28T15:19:31.071070Z"
+     "iopub.execute_input": "2021-06-28T21:36:46.194110Z",
+     "iopub.status.busy": "2021-06-28T21:36:46.193652Z",
+     "iopub.status.idle": "2021-06-28T21:36:46.502705Z",
+     "shell.execute_reply": "2021-06-28T21:36:46.501719Z"
     }
    },
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "<matplotlib.colorbar.Colorbar at 0x7fdefc7b0670>"
+       "<matplotlib.colorbar.Colorbar at 0x7f79ac467700>"
       ]
      },
      "execution_count": 12,
@@ -484,7 +484,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a4821f6c",
+   "id": "d9b29b77",
    "metadata": {},
    "source": [
     "We see that the cube resembles the dirty image, but it contains no pixels with negative flux values."
@@ -493,13 +493,13 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "eff28e23",
+   "id": "58a11fcd",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:31.076359Z",
-     "iopub.status.busy": "2021-06-28T15:19:31.075779Z",
-     "iopub.status.idle": "2021-06-28T15:19:31.080485Z",
-     "shell.execute_reply": "2021-06-28T15:19:31.080973Z"
+     "iopub.execute_input": "2021-06-28T21:36:46.506685Z",
+     "iopub.status.busy": "2021-06-28T21:36:46.506129Z",
+     "iopub.status.idle": "2021-06-28T21:36:46.512970Z",
+     "shell.execute_reply": "2021-06-28T21:36:46.512506Z"
     }
    },
    "outputs": [
@@ -520,7 +520,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "91f5adae",
+   "id": "8b0275f6",
    "metadata": {},
    "source": [
     "We can also plot this with a normal colormap,"
@@ -529,20 +529,20 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "10b3abbd",
+   "id": "b7e8a07d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:31.101484Z",
-     "iopub.status.busy": "2021-06-28T15:19:31.099419Z",
-     "iopub.status.idle": "2021-06-28T15:19:31.400069Z",
-     "shell.execute_reply": "2021-06-28T15:19:31.400546Z"
+     "iopub.execute_input": "2021-06-28T21:36:46.528002Z",
+     "iopub.status.busy": "2021-06-28T21:36:46.517312Z",
+     "iopub.status.idle": "2021-06-28T21:36:46.844267Z",
+     "shell.execute_reply": "2021-06-28T21:36:46.844752Z"
     }
    },
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "<matplotlib.colorbar.Colorbar at 0x7fdefc752f10>"
+       "<matplotlib.colorbar.Colorbar at 0x7f79ac408fd0>"
       ]
      },
      "execution_count": 14,
@@ -579,7 +579,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "10e608a3",
+   "id": "25f92e41",
    "metadata": {},
    "source": [
     "### Saving the Model\n",
@@ -590,13 +590,13 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "4562de4c",
+   "id": "2025c714",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:31.405404Z",
-     "iopub.status.busy": "2021-06-28T15:19:31.404882Z",
-     "iopub.status.idle": "2021-06-28T15:19:31.408869Z",
-     "shell.execute_reply": "2021-06-28T15:19:31.408398Z"
+     "iopub.execute_input": "2021-06-28T21:36:46.849035Z",
+     "iopub.status.busy": "2021-06-28T21:36:46.848477Z",
+     "iopub.status.idle": "2021-06-28T21:36:46.852469Z",
+     "shell.execute_reply": "2021-06-28T21:36:46.851817Z"
     }
    },
    "outputs": [],
@@ -606,7 +606,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a374fe84",
+   "id": "0a9ce342",
    "metadata": {},
    "source": [
     "For more information on saving and loading models in PyTorch, please consult the official [documentation](https://pytorch.org/tutorials/beginner/saving_loading_models.html)."
@@ -614,7 +614,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2482d45d",
+   "id": "7caec0ce",
    "metadata": {},
    "source": [
     "### Loading the Model\n",
@@ -625,13 +625,13 @@
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "d218a0fa",
+   "id": "999fe012",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:31.413065Z",
-     "iopub.status.busy": "2021-06-28T15:19:31.412544Z",
-     "iopub.status.idle": "2021-06-28T15:19:31.420484Z",
-     "shell.execute_reply": "2021-06-28T15:19:31.421154Z"
+     "iopub.execute_input": "2021-06-28T21:36:46.857787Z",
+     "iopub.status.busy": "2021-06-28T21:36:46.856341Z",
+     "iopub.status.idle": "2021-06-28T21:36:46.865056Z",
+     "shell.execute_reply": "2021-06-28T21:36:46.865580Z"
     }
    },
    "outputs": [
@@ -666,7 +666,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "43b8f012",
+   "id": "bc29ffb2",
    "metadata": {},
    "source": [
     "Here you can clearly see the ``state_dict`` is in its original state, before the training loop changed the paramters through the optimization function. Loading our saved dirty image state into the model is as simple as"
@@ -675,13 +675,13 @@
   {
    "cell_type": "code",
    "execution_count": 17,
-   "id": "0304dde3",
+   "id": "81290ab1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2021-06-28T15:19:31.425221Z",
-     "iopub.status.busy": "2021-06-28T15:19:31.424454Z",
-     "iopub.status.idle": "2021-06-28T15:19:31.432929Z",
-     "shell.execute_reply": "2021-06-28T15:19:31.432451Z"
+     "iopub.execute_input": "2021-06-28T21:36:46.869248Z",
+     "iopub.status.busy": "2021-06-28T21:36:46.868636Z",
+     "iopub.status.idle": "2021-06-28T21:36:46.876258Z",
+     "shell.execute_reply": "2021-06-28T21:36:46.875735Z"
     }
    },
    "outputs": [
@@ -716,7 +716,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1d5713a6",
+   "id": "86e29029",
    "metadata": {},
    "source": [
     "Now you can proceed with optimizing the model against the visibility data as before, but you should hopefully have a much better starting point."
@@ -724,7 +724,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "bfa15812",
+   "id": "2d9e2fb8",
    "metadata": {},
    "source": [
     "### Conclusion\n",
