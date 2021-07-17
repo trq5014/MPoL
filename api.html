@@ -1220,7 +1220,7 @@ m'' = l' \sin \phi + m' \cos \phi\end{split}\]</div>
 <dd><p>Calculate the total square variation (TSV) loss in the image dimension (R.A. and DEC). Following the definition in <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019ApJ...875L...4E/abstract">EHT-IV 2019</a> Promotes the image to be edge smoothed which may be a better reoresentation of the truth image <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...858...56K/abstract">K. Kuramochi et al 2018</a>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>sky_cube</strong> (<em>any 3D tensor</em>) – the image cube array <span class="math notranslate nohighlight">\(I_{lmv}\)</span>, where <span class="math notranslate nohighlight">\(l\)</span> is R.A., <span class="math notranslate nohighlight">\(m\)</span> is DEC, and <span class="math notranslate nohighlight">\(v\)</span> is the channel (velocity or frequency) dimension. Should be in sky format representation.</p>
+<dd class="field-odd"><p><strong>sky_cube</strong> (<em>any 3D tensor</em>) – the image cube array <span class="math notranslate nohighlight">\(I_{lmv}\)</span>, where <span class="math notranslate nohighlight">\(l\)</span> is R.A. in <span class="math notranslate nohighlight">\(ndim=1\)</span>, <span class="math notranslate nohighlight">\(m\)</span> is DEC in <span class="math notranslate nohighlight">\(ndim=2\)</span>, and <span class="math notranslate nohighlight">\(v\)</span> is the channel (velocity or frequency) dimension in <span class="math notranslate nohighlight">\(ndim=1\)</span>. Should be in sky format representation.</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p>total square variation loss</p>
@@ -1262,7 +1262,7 @@ m'' = l' \sin \phi + m' \cos \phi\end{split}\]</div>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>sky_cube</strong> (<em>any 3D tensor</em>) – the image cube array <span class="math notranslate nohighlight">\(I_{lmv}\)</span>, where <span class="math notranslate nohighlight">\(l\)</span> is R.A., <span class="math notranslate nohighlight">\(m\)</span> is DEC, and <span class="math notranslate nohighlight">\(v\)</span> is the channel (velocity or frequency) dimension. Should be in sky format representation.</p></li>
+<li><p><strong>sky_cube</strong> (<em>any 3D tensor</em>) – the image cube array <span class="math notranslate nohighlight">\(I_{lmv}\)</span>, where <span class="math notranslate nohighlight">\(l\)</span> is R.A. in <span class="math notranslate nohighlight">\(ndim=1\)</span>, <span class="math notranslate nohighlight">\(m\)</span> is DEC in <span class="math notranslate nohighlight">\(ndim=2\)</span>, and <span class="math notranslate nohighlight">\(v\)</span> is the channel (velocity or frequency) dimension in <span class="math notranslate nohighlight">\(ndim=1\)</span>. Should be in sky format representation.</p></li>
 <li><p><strong>epsilon</strong> (<em>float</em>) – a softening parameter in [<span class="math notranslate nohighlight">\(\mathrm{Jy}/\mathrm{arcsec}^2\)</span>]. Any pixel-to-pixel variations within each image slice greater than this parameter will have a significant penalty.</p></li>
 </ul>
 </dd>
